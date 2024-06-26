@@ -13,7 +13,7 @@ const SelectedWorks = () => {
       className="flex flex-col-reverse lg:flex-row text-[#e5e5e5] pb-[2rem] lg:w-[90%] max-w-[1200px] mt-16 m-auto px-6 md:px-10 xxl:pt-[3rem]"
     >
       <div className="left lg:w-[70%] items-center lg:mr-12 mt-10 lg:mt-0">
-        <motion.img
+        <motion.video
           initial={{
             opacity: 0,
             y: 100,
@@ -27,9 +27,12 @@ const SelectedWorks = () => {
             },
           }}
           viewport={{ once: true }}
-          src={WorksBanner}
-          alt=""
+          src="intro.mp4"
+          alt="intro video"
           className="hidden lg:flex"
+          controls
+          autoplay
+          loop
         />
         <div className="flex flex-col lg:flex-row justify-between items-center lg:mt-10">
           <motion.div
@@ -92,11 +95,10 @@ const SelectedWorks = () => {
       <div className="right lg:w-[30%] flex flex-col lg:items-center">
         <motion.div initial={{ opacity: 0, y: 100 }} whileInView={fade}>
           <h2 className="uppercase text-[1.5rem] lg:text-[3rem] font-semibold w-full leading-[3rem] mb-4">
-            Selected Works
+          The Guaranteed Promise
           </h2>
           <p className="text-[#929294] font-medium text-[80%] lg:text-base">
-            Let's get a deeper look at the challenges we overcome daily to
-            create success stories for brands.
+          At our agency, we're so confident in our abilities that we're offering a bold guarantee: we'll drive 1 million views across all of your social media platforms within 90 days. No ifs, ands, or buts – if we don't deliver, we'll refund your entire investment.
           </p>
         </motion.div>
         <motion.div

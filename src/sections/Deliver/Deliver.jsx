@@ -51,22 +51,39 @@ const Deliver = () => {
             variants={riseUpItem}
             className="text-[#929294] font-medium lg:text-base text-[80%]"
           >
-            Custom digital strategy informed by a powerful appraisal & your
-            business deserves more than a pre-packed strategy
+            <strong>
+              Unleash Your Social Media Dominance: 1 Million Views Guaranteed in
+              90 Days
+            </strong>
+            <br></br>
+            Tired of struggling to grow your online presence? Frustrated by the
+            constant algorithm changes and the never-ending battle for
+            visibility? Look no further! Our social media marketing agency is
+            here to skyrocket your brand to new heights.
           </motion.p>
           <motion.p
             variants={riseUpItem}
             className="text-[#929294] font-medium lg:text-base text-[80%]"
           >
-            See the progress we are making & what's driving results, anytime, we
-            keep you consistently, transparently informed.
+            <strong>Branding and SEO</strong>
+            <br></br>
+            Building a strong brand is the foundation of any successful online
+            presence. We'll work with you to develop a cohesive and memorable
+            brand identity that resonates with your audience. Our SEO
+            specialists will optimize your content and online presence to ensure
+            your brand is easily found by your potential customers.
           </motion.p>
           <motion.p
             variants={riseUpItem}
             className="text-[#929294] font-medium lg:text-base text-[80%]"
           >
-            Services that dovetail together for your greatest ROI, rowing in the
-            same direction towards your growth goals.
+            <strong> Social Media Campaigns</strong>
+            <br></br>
+            Tired of throwing money at ineffective social media ads? Our team
+            will design and execute targeted social media campaigns that deliver
+            real results. We'll create eye-catching visuals, craft compelling
+            copy, and track the performance of your campaigns to ensure you get
+            the most bang for your buck.
           </motion.p>
         </motion.div>
       </div>

@@ -53,7 +53,8 @@ const CTA = () => {
           >
             <Button className="flex items-center justify-center text-[#075B8D] bg-[#fff] font-medium w-max md:py-2 md:px-4">
               <span className="mr-2 lg:text-2xl font-semibold text-[80%] md:text-base">
-                Start Now
+              
+                <a href="mailto:your-email@example.com" className="your-custom-classes" target="_blank">Start Now</a>
               </span>
               <FiArrowUpRight size={20} />
             </Button>

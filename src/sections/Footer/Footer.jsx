@@ -37,15 +37,9 @@ const Footer = () => {
               variants={riseUpItem}
               className="text-[#929294] font-medium mb-8 lg:text-base text-[80%]"
             >
-              Palau Sebira, Kepulauan Seribu Utara, Kab. Administrasi Kepulauan
-              Seribu, Daerah Khusus Ibukota Jakarta
+              parking innovation with every project. Transforming ideas into
+              stunning digital realities.
             </motion.p>
-            <motion.span variants={riseUpItem}>
-              <FooterLink text="Faq" />
-            </motion.span>
-            <motion.span variants={riseUpItem}>
-              <FooterLink text="Terms & Agreements" />
-            </motion.span>
           </motion.div>
 
           {/* Right  */}
@@ -56,25 +50,32 @@ const Footer = () => {
             className="md:w-[40%] flex flex-col justify-between"
           >
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Email" handle="Hello@Digitaly.yeah" />
+              <FooterLink
+                text="Email"
+                url="mailto:creavo.creatives@gmail.com"
+                handle="creavo.creatives@gmail.com"
+              />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Instagram" handle="@Digitaly" />
+              <FooterLink
+                text="Instagram"
+                url="https://www.instagram.com/creavo.creative/"
+                handle="creavo.creatives"
+              />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Twitter" handle="@Digitaly" />
+              <FooterLink
+                text="Telegram"
+                url="https://t.me/creavo_creatives"
+                handle="creavo_creatives"
+              />
             </motion.span>
             <motion.span variants={riseUpItem}>
-              <FooterLink text="Medium" handle="@Digitaly" />
-            </motion.span>
-            <motion.span variants={riseUpItem}>
-              <FooterLink text="Telegram" handle="@Digitaly" />
-            </motion.span>
-            <motion.span variants={riseUpItem}>
-              <FooterLink text="LinkedIn" handle="@Digitaly" />
-            </motion.span>
-            <motion.span variants={riseUpItem}>
-              <FooterLink text="Facebook" handle="@Digitaly" />
+              <FooterLink
+                text="LinkedIn"
+                url="https://www.linkedin.com/in/creavo-creatives"
+                handle="Creavo Creatives"
+              />
             </motion.span>
           </motion.div>
         </div>

@@ -29,7 +29,7 @@ const Home = () => {
                   whileInView={fade}
                   className="uppercase text-[3rem] md:text-[4rem] lg:text-[5rem] tracking-[-2px] lg:tracking-[-6px] leading-[4rem] lg:leading-[5rem] font-bold "
                 >
-                  Sharing
+                  Creavo
                 </motion.h1>
                 <motion.img
                   initial={{ opacity: 0, y: 20 }}
@@ -48,17 +48,16 @@ const Home = () => {
                 whileInView={fade}
                 className="uppercase text-[3rem] md:text-[4rem] lg:text-[5rem] tracking-[-2px] lg:tracking-[-6px] leading-[4rem] lg:leading-[5rem] font-bold "
               >
-                Your Vision
+                Creatives
               </motion.h1>
             </motion.div>
             <div className="lg:w-[40%] text-center lg:text-left">
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={fade}
-                className="lg:mb-8 mb-4 text-sm lg:text-base md:w-[80%] lg:w-full m-auto font-semibold text-gray-700"
+             className="lg:mb-8 mb-4 text-lg lg:text-xl md:w-[100%] lg:w-full m-auto font-semibold text-gray-700"
               >
-                We love to create experiences that enable people to connect,
-                express themselves and establish meaningful relationships.
+                Our mission is to create dynamic online presence for our customers
               </motion.p>
               <div className="flex flex-col items-center md:flex-row md:justify-center lg:justify-start">
                 <motion.span initial={{ opacity: 0, y: 20 }} whileInView={fade}>

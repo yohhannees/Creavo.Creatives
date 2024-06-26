@@ -8,6 +8,7 @@ import Team from "./sections/Team/Team";
 import CTA from "./sections/CTA/CTA";
 import Footer from "./sections/Footer/Footer";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import Marquee from "react-fast-marquee";
 
 const App = () => {
   const containerRef = useRef(null);
@@ -15,6 +16,7 @@ const App = () => {
   const options = {
     smooth: true,
   };
+
 
   return (
     <LocomotiveScrollProvider options={options} containerRef={containerRef}>
